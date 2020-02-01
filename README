@@ -1,0 +1,10 @@
+switch (cerință)
+{
+    case '-e': verific dacă starea inițială aparține mulțimii stărilor finale;
+    case '-v': verific dacă din starea inițială nu pot ajunge într-o stare finală
+                printr-o parcurgere în adâncime;
+    case '-f': verific dacă, pornind dintr-o stare utilă, nu găsesc nicio o buclă;
+    case '-a': afișez toate stările vizitate dintr-o parcurgere în adâncime;
+    case '-u': afișez toate stările care sunt finale sau din care pot ajunge în
+                stări finale;
+}
